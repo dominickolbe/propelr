@@ -22,6 +22,11 @@ export default function RootLayout({
         data-ackee-server="https://hello.domnc.app"
         data-ackee-domain-id="1f4776fa-4767-49c8-a111-38f3c3f5bfcd"
       ></script>
+      <script
+        defer
+        data-domain="propelr.vercel.app"
+        src="https://plausible.io/js/script.js"
+      ></script>
       <body className={inter.className}>{children}</body>
     </html>
   );
